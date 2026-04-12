@@ -20,36 +20,28 @@ riddles = [
     }
 ]
 
-# Crear un directorio para guardar los QRs si no existe
 output_dir = "riddle_qrs"
 if not os.path.exists(output_dir):
     os.makedirs(output_dir)
 
-# Configuración del generador de QR
 qr_config = qrcode.QRCode(
-    version=1, # Controla el tamaño del QR (1 es el más pequeño)
-    error_correction=qrcode.constants.ERROR_CORRECT_L, # Corrección de errores baja (L)
-    box_size=10, # Tamaño de cada "caja" o píxel del QR
-    border=4, # Grosor del borde
+    version=1, 
+    error_correction=qrcode.constants.ERROR_CORRECT_L, 
+    box_size=10, 
+    border=4, 
 )
 
-# Generar y guardar cada QR
 for riddle in riddles:
-    # Añadir el texto de la adivinanza
     qr_config.add_data(riddle["text"])
     qr_config.make(fit=True)
 
-    # Crear la imagen del QR (blanco y negro estándar)
     qr_image = qr_config.make_image(fill_color="black", back_color="white")
 
-    # Definir el nombre del archivo
     file_name = f"{riddle['location']}_riddle_qr.png"
     file_path = os.path.join(output_dir, file_name)
 
-    # Guardar la imagen
     qr_image.save(file_path)
 
-    # Limpiar los datos para el siguiente QR
     qr_config.clear()
 
     print(f"Generated QR code for {riddle['location']} at: {file_path}")
