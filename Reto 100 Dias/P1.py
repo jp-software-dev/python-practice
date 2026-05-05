@@ -1,6 +1,6 @@
-numero1 = 11
-numero2 = 19
+num1 = 11
+num2 = 19
 
-resultado = numero1 + numero2
+resultado = num1 + num2
 
-print("El Reutado De La Suma Es: ", resultado)
+print("El Resultado De La Suma Es: ", resultado)
