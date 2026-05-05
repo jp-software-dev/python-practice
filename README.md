@@ -1,5 +1,7 @@
 # Python Development Hub
 
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+
 This repository serves as a personal laboratory for mastering Python fundamentals. It contains a collection of programming exercises, logic challenges, and practical software projects developed through continuous study and various educational resources.
 
 ## Repository Structure
@@ -11,8 +13,13 @@ This repository serves as a personal laboratory for mastering Python fundamental
 
 ## Tech Stack
 
-- **Language:** Python 3.x
-- **Focus:** Clean code, algorithmic efficiency, and software development foundations.
+* **Language:** Python 3.x
+* **Focus:** Clean code, algorithmic efficiency, and software development foundations.
 
----
-*Note: This repository is dedicated strictly to general software development, fundamental logic, and practice exercises.*
+## Getting Started
+
+To explore or run the exercises locally:
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/jp-software-dev/python-practice.git
