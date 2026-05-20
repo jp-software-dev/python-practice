@@ -1,25 +1,28 @@
-# Python Development Hub
+# Maison 99 Web Platform
 
-![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
 
-This repository serves as a personal laboratory for mastering Python fundamentals. It contains a collection of programming exercises, logic challenges, and practical software projects developed through continuous study and various educational resources.
+This repository serves as the frontend architecture for the Maison 99 platform. It contains a responsive web interface, an interactive menu, and a secure serverless ordering system that routes customer requests directly through the WhatsApp API.
 
 ## Repository Structure
 
-* **Software Utilities:** Scripts for automation and practical tools, including QR generators and interactive applications.
-* **Logic & Mathematics:** Implementations of mathematical algorithms, calculators, and core programming logic challenges.
-* **Project Labs:** Modular developments focused on GUI creation, data handling, and functional programming.
-* **Educational Tracks:** Progress tracking through specialized courses and comprehensive coding challenges.
+* **Frontend Interfaces:** Semantic HTML5 structure and main user views.
+* **Styling Architecture:** CSS3 implementations featuring Flexbox, CSS variables, and responsive media queries.
+* **Client-Side Logic:** Vanilla JavaScript handling DOM manipulation, form processing, and API routing.
+* **Security Modules:** Implementation of honeypot techniques and input sanitization to prevent XSS and bot spam.
 
 ## Tech Stack
 
-* **Language:** Python 3.x
-* **Focus:** Clean code, algorithmic efficiency, and software development foundations.
+* **Languages:** HTML5, CSS3, JavaScript (ES6)
+* **Security:** DOMPurify 3.x
+* **Focus:** Clean UI/UX, responsive design, and serverless communication architecture.
 
 ## Getting Started
 
-To explore or run the exercises locally:
+To explore or run the project locally:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/jp-software-dev/python-practice.git
+   git clone https://github.com/jp-software-dev/maison-99.git
