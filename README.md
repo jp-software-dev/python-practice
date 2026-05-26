@@ -1,28 +1,31 @@
-# Maison 99 Web Platform
+# Python Practice Workspace 🐍
 
-![HTML5](https://img.shields.io/badge/html5-%23E34F26.svg?style=for-the-badge&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?style=for-the-badge&logo=css3&logoColor=white)
-![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+![SQLite](https://img.shields.io/badge/sqlite-%2307405e.svg?style=for-the-badge&logo=sqlite&logoColor=white)
+![Security](https://img.shields.io/badge/Security-Defensive_Ops-black?style=for-the-badge&logo=shield&logoColor=white)
 
-This repository serves as the frontend architecture for the Maison 99 platform. It contains a responsive web interface, an interactive menu, and a secure serverless ordering system that routes customer requests directly through the WhatsApp API.
+This repository serves as a progressive workspace for mastering Python logic, data structures, and local scripting. It is structured to evolve from fundamental algorithmic challenges to advanced structural applications and local cybersecurity defensive tools.
 
-## Repository Structure
+## 🗂️ Repository Scope & Contents
 
-* **Frontend Interfaces:** Semantic HTML5 structure and main user views.
-* **Styling Architecture:** CSS3 implementations featuring Flexbox, CSS variables, and responsive media queries.
-* **Client-Side Logic:** Vanilla JavaScript handling DOM manipulation, form processing, and API routing.
-* **Security Modules:** Implementation of honeypot techniques and input sanitization to prevent XSS and bot spam.
+This repository acts as a general portfolio of my day-to-day Python practices and exercises. Rather than a single massive application, it contains multiple standalone scripts categorized by their complexity and core focus:
 
-## Tech Stack
+* **Core Logic & Fundamentals:** Scripts focused on mastering Python syntax, control flows, and standard libraries (e.g., CLI tools, basic GUI apps, logic games).
+* **APIs, Web Scraping & Databases:** Intermediate exercises integrating external data and local persistence (e.g., `BeautifulSoup4` scrapers, API consumers, and `SQLite3` CRUD implementations).
+* **Structural Algorithms:** Advanced implementations of complex data structures and algorithms (e.g., automation scripts, sorting, data processing).
+* **Cybersecurity Scripts:** Defensive and analytical local tools focused on applied security (e.g., custom encryption protocols, password managers, basic network auditing).
 
-* **Languages:** HTML5, CSS3, JavaScript (ES6)
-* **Security:** DOMPurify 3.x
-* **Focus:** Clean UI/UX, responsive design, and serverless communication architecture.
+## 💻 Tech Stack & Libraries
 
-## Getting Started
+* **Core:** Python 3.x
+* **Data & Web:** `requests`, `bs4` (BeautifulSoup), `sqlite3`
+* **Security & Network:** `cryptography`, `socket`
+* **General:** OS manipulation, Math, Random, Datetime.
 
-To explore or run the project locally:
+## 🚀 Getting Started
+
+To explore or run these scripts locally on a Windows environment:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/jp-software-dev/maison-99.git
+   git clone https://github.com/jp-software-dev/python-practice.git
