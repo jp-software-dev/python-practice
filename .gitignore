@@ -1,47 +1,57 @@
-# Entornos virtuales
+# Virtual environments
 .venv/
 venv/
 env/
+ENV/
 
 # Python
 __pycache__/
 *.py[cod]
 *$py.class
 
-# Bases de datos SQLite
+# SQLite / Databases
 *.db
 *.sqlite
 *.sqlite3
+*.db-journal
+*.sqlite-shm
+*.sqlite-wal
 
-# Archivos temporales
+# Logs / temp
 *.log
 *.tmp
 *.temp
 
-# VS Code
+# IDEs
 .vscode/
-
-# PyCharm
 .idea/
 
-# Variables de entorno
+# Environment variables
 .env
 .env.*
 
 # FastAPI / Uvicorn
 *.pid
+*.sock
+*.seed
+*.cover
 
-# Sistema operativo
-.DS_Store
-Thumbs.db
-desktop.ini
-
-# Archivos compilados
+# Build files
 build/
 dist/
 *.egg-info/
 
-# Caché de pruebas
+
+# Testing cache
 .pytest_cache/
 .coverage
 htmlcov/
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+$RECYCLE.BIN/
+.AppleDouble
+.LSOverride
+*~
