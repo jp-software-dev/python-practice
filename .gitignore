@@ -1,0 +1,47 @@
+# Entornos virtuales
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Bases de datos SQLite
+*.db
+*.sqlite
+*.sqlite3
+
+# Archivos temporales
+*.log
+*.tmp
+*.temp
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# Variables de entorno
+.env
+.env.*
+
+# FastAPI / Uvicorn
+*.pid
+
+# Sistema operativo
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archivos compilados
+build/
+dist/
+*.egg-info/
+
+# Caché de pruebas
+.pytest_cache/
+.coverage
+htmlcov/
