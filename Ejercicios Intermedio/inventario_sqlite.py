@@ -32,7 +32,7 @@ def agregar_producto(conexion):
 
     cursor = conexion.cursor()
     try:
-        # Consulta SQL (C - Create)
+        # Consulta SQL (Create)
         cursor.execute("INSERT INTO productos (nombre, cantidad, precio) VALUES (?, ?, ?)", (nombre, cantidad, precio))
         conexion.commit()
         print(f"[+] Producto '{nombre.capitalize()}' agregado con exito.")

@@ -31,7 +31,7 @@ def extraer_precios():
             # El titulo real esta oculto en el atributo 'title' dentro de la etiqueta <a> dentro del <h3>
             titulo = libro.h3.a['title']
             
-            # El precio esta dentro de un parrafo <p> que tiene la clase 'price_color'. 
+            # El precio esta dentro de un parrafo <p> que tiene la clase 'price_color'
             # .text extrae solo las letras/numeros, ignorando las etiquetas HTML
             precio = libro.find('p', class_='price_color').text
             
