@@ -1,15 +1,5 @@
 """
 Clase 1 - 16 de junio
-<<<<<<< HEAD
-Introduccion a FastApi: primer servidor "Hola Mundo".
-
-Comó Correr este archivo:
-    1. Activar tu entorno Virtual.
-    2. Ejecuta FastApi dev main.py
-    3. Abre el navegador: http://localhost:8000
-    4. Documentación automatica: http//localhost:800/docs    
-"""
-=======
 Introducción a FastAPI: primer servidor "Hola Mundo"
 
 Cómo correr este archivo:
@@ -19,24 +9,10 @@ Cómo correr este archivo:
     4. Documentación automática: http://localhost:8000/docs
 """
 
->>>>>>> rama-segura
 from fastapi import FastAPI
 
 app = FastAPI(
     title="Mi primer API",
-<<<<<<< HEAD
-    description="API de ejemplo para la clase 1 del curso de FastApi.",
-    version="0.1.0"
-)
-
-@app.get("/")
-async def raiz():
-    return{"mensaje": "Hola Mundo Desde FastAPI"}
-
-@app.get("/Saludo")
-async def saludo():
-    return{"mensaje": "Bienvenidos al curso de FastAPI", "Clase": 1}
-=======
     description="API de ejemplo para la clase 1 del curso de FastAPI.",
     version="0.1.0",
 )
@@ -111,4 +87,3 @@ async def ver_clientes(cliente_id: int):
             return cliente
     
     return {"error": "Cliente no encontrado"}
->>>>>>> rama-segura
