@@ -52,72 +52,39 @@ To explore, review, or run these scripts locally within a Windows environment:
 
 > For the socket chat, start `servidor.py` first and then one or more `cliente.py` in separate terminals.
 
-## 🗺️ Learning Roadmap
+## 📚 How to Learn With This Repository
 
-This repository grows step by step. Each project is added here as it is completed.
+This repo is my own learning path, shared so anyone can follow it. If you are starting with Python, you can use it as a step-by-step guide: every script is short, standalone and focused on one idea, so you can open it, read it, run it and change it without setting anything else up.
 
-✅ Completed · ▶️ In progress · ⏳ Planned
+> Comments, variable names and console messages are mostly in **Spanish**.
 
-### 🟢 Beginner Level — Completed
+### 🧭 Suggested path
 
-| # | Project | File |
+Follow the folders in this order. Each stage builds on the previous one.
+
+| Step | Folder | What you will learn |
 | --- | --- | --- |
-| 1 | ✅ Tip calculator | [`Calculadora de propinas.py`](<Ejercicios Principiante/Calculadora de propinas.py>) |
-| 2 | ✅ Rock, paper, scissors | [`Juego Clasico.py`](<Ejercicios Principiante/Juego Clasico.py>) |
-| 3 | ✅ Digital clock with GUI | [`Reloj Digital.py`](<Ejercicios Principiante/Reloj Digital.py>) |
-| 4 | ✅ Simple link shortener | [`Acortador de enlaces.py`](<Ejercicios Principiante/Acortador de enlaces.py>) |
-| 5 | ✅ File organizer by extension | [`Organizador de archivos.py`](<Ejercicios Principiante/Organizador de archivos.py>) |
-| 6 | ✅ Word counter | [`Contador de palabras.py`](<Ejercicios Principiante/Contador de palabras.py>) |
-| 7 | ✅ Unit converter (Celsius ↔ Fahrenheit) | [`Convertidor de unidades.py`](<Ejercicios Principiante/Convertidor de unidades.py>) |
-| 8 | ✅ To-Do list | [`Lista de tareas pendientes.py`](<Ejercicios Principiante/Lista de tareas pendientes.py>) |
-| 9 | ✅ Dice roll simulator | [`Lanzamiento de dados..py`](<Ejercicios Principiante/Lanzamiento de dados..py>) |
-| 10 | ✅ Countdown timer (Pomodoro) | [`Reloj de cuenta regresiva.py`](<Ejercicios Principiante/Reloj de cuenta regresiva.py>) |
-| 11 | ✅ Dictionary definition finder | [`Buscador de definiciones diccionario.py`](<Ejercicios Principiante/Buscador de definiciones diccionario.py>) |
-| 12 | ✅ Palindrome checker | [`Verificador de palíndromo.py`](<Ejercicios Principiante/Verificador de palíndromo.py>) |
-| 13 | ✅ Current weather notifier | [`Notificador de clima actual.py`](<Ejercicios Principiante/Notificador de clima actual.py>) |
-| 14 | ✅ Hangman game | [`Juego del ahorcado.py`](<Ejercicios Principiante/Juego del ahorcado.py>) |
+| 1 | `Curso Python/` | The basics: variables, input, type conversion, strings, indexing, lists, tuples, sets, dictionaries, `if`, `for` / `while` loops and `break` / `continue`. |
+| 2 | `Reto de 100 Dias/` | Daily practice. Short exercises (`P1.py`, `P2.py`…) that start with simple math and grow into functions, `lambda`, `map` and classes. Do one per day. |
+| 3 | `Ejercicios Principiante/` | Your first complete programs: games (hangman, rock-paper-scissors, guessing), a tip calculator, unit converter, To-Do list, Pomodoro timer, file organizer and small apps that call public APIs. |
+| 4 | `Ejercicios Intermedio/` | Real-world tools: SQLite databases (URL shortener, inventory), web scraping, a crypto price viewer, an image editor with Pillow, a Snake game with Pygame, a notes app with password hashing and a voting system. |
+| 5 | `Ejercicios Intermedio/Ejercicios con Sockets/` | Networking from zero: TCP and UDP sockets, DNS lookups, IP conversion and XML-RPC. Files ending in `.1` are the client for the server with the same number (run `3.py`, then `3.1.py`). |
+| 6 | `Ejercicios Intermedio/Aplicación de Chat con Sockets/` | Puts the networking together: a multi-client chat using sockets and threads. |
+| 7 | `Ejercicios Avanzado/` | Multithreading with a port scanner and a GUI calendar with Tkinter. |
+| 8 | `Qr-Enlaces/`, `Qr-Imagenes/`, `Qr-Texto/` | Small automation utilities that generate QR codes. |
 
-### 🟡 Intermediate Level — In Progress
+### 💡 Tips to get the most out of it
 
-| # | Project | File |
-| --- | --- | --- |
-| 15 | ✅ Web data extractor (price scraper) | [`web_scraper.py`](<Ejercicios Intermedio/web_scraper.py>) |
-| 16 | ✅ URL shortener with SQLite database | [`acortador_sqlite.py`](<Ejercicios Intermedio/acortador_sqlite.py>) |
-| 17 | ✅ Basic inventory manager with SQLite | [`inventario_sqlite.py`](<Ejercicios Intermedio/inventario_sqlite.py>) |
-| 18 | ✅ Real-time chat application (Sockets) | [`Aplicación de Chat con Sockets/`](<Ejercicios Intermedio/Aplicación de Chat con Sockets>) |
-| 19 | ✅ Basic image editor (filters and resizing) | [`Editor de imágenes básico/`](<Ejercicios Intermedio/Editor de imágenes básico>) |
-| 20 | ✅ Cryptocurrency data viewer (API) | [`visualizador_cripto.py`](<Ejercicios Intermedio/visualizador_cripto.py>) |
-| 21 | ✅ Snake game with Pygame | [`juego_snake.py`](<Ejercicios Intermedio/juego_snake.py>) |
-| 23 | ✅ Notes app with user login | [`notas_seguras.py`](<Ejercicios Intermedio/notas_seguras.py>) |
-| 24 | ✅ Simple electronic voting system | [`sistema_votacion.py`](<Ejercicios Intermedio/sistema_votacion.py>) |
-| 25 | ⏳ Text sentiment analyzer | — |
-| 26 | ⏳ Email automation | — |
-| 27 | ⏳ Quiz app with API | — |
+1. **Read before you run.** Try to predict what the script will print, then run it and compare.
+2. **Change one thing at a time.** Edit a value, a condition or a loop and see what happens. Breaking the code on purpose is one of the fastest ways to learn.
+3. **Rewrite it from scratch.** After understanding a script, close it and write your own version without looking.
+4. **Add a feature.** Every project can grow: add a score to a game, a new table to a database app, or a menu option to a tool.
+5. **Keep your own notes.** Write down what each script taught you; it becomes your personal cheat sheet.
 
-### 🔴 Advanced Level — Structural Algorithms
+### ⚠️ About the security scripts
 
-| # | Project | File |
-| --- | --- | --- |
-| 28 | ⏳ Movie recommendation system (Pandas / Math) | — |
-| 29 | ⏳ Blockchain from scratch (block simulation) | — |
-| 30 | ⏳ Network traffic analyzer (Scapy sniffer) | — |
-| 31 | ⏳ File compressor (Huffman algorithm) | — |
-| 32 | ⏳ HTTP web server from scratch (raw sockets) | — |
-| 33 | ⏳ Chess game with AI (Minimax algorithm) | — |
-| 34 | ⏳ Full-text search engine (inverted index) | — |
-| 35 | ⏳ Optimal route planner (Dijkstra's algorithm) | — |
+The networking and security scripts (like the port scanner) are for learning how systems work. Only run them on your own computer or on networks and devices you have explicit permission to test.
 
-### 🛡️ Cybersecurity — Local Scripts & Tools
+### 🤝 Feedback
 
-| # | Project | File |
-| --- | --- | --- |
-| 36 | ⏳ Local password manager with encryption | — |
-| 37 | ▶️ Basic port scanner (file created / active testing) | [`Escaner De Puertos.py`](<Ejercicios Avanzado/Escaner De Puertos.py>) |
-| 38 | ⏳ Keylogger (educational use only) | — |
-| 39 | ⏳ Phishing page simulator (temporary local server) | — |
-| 40 | ⏳ Rule-based basic firewall (IP blocking) | — |
-| 41 | ⏳ Secure chat app (end-to-end encryption) | — |
-| 42 | ⏳ Penetration testing automation script | — |
-| 43 | ⏳ Cryptography tool (AES / RSA encryption and decryption) | — |
-
-> ⚠️ All security tools in this repository are for educational purposes and are only run on my own machines or on systems I have explicit permission to test.
+Found a bug, have an idea for a new exercise or a better way to solve one? Open an issue or a pull request. Suggestions are welcome.
